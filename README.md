@@ -7,6 +7,15 @@ A business-ready KPI dashboard for a retail scenario. Built a star-schema semant
 2) **Marketing & Growth** – Sessions, CAC, ROAS, Returns, Revenue MoM %, Rolling 3M Avg.  
 3) **Category & Monthly Breakdown** – Matrix with conditional formatting, Top N, Category trend.
 
+### Executive KPI Overview
+![Executive](screenshots/Page1.png)
+
+### Marketing & Growth
+![Marketing](screenshots/Page2.png)
+
+### Category & Monthly Breakdown
+![Category](screenshots/Page3.png)
+
 ## 🧠 Measures (highlights)
 Revenue · COGS · Gross Margin % · Orders Count · AOV · Returns Amount · **Net Revenue** · **Returns % of Orders** · Total Sessions · Total Marketing Spend · **Conversion Rate** · **CAC** · **ROAS** · **Revenue MoM %** · **Revenue/Net Revenue YoY %** · **Rolling 3M Avg** · Target Revenue · % to Target Revenue.
 
@@ -15,10 +24,6 @@ Revenue · COGS · Gross Margin % · Orders Count · AOV · Returns Amount · **
 - Relationships: Many-to-one, Single direction; `Orders` ↔ `Products`, `Customers`, `Calendar`.
 - Safe DAX (`DIVIDE`) to handle missing months; optional filter to **show only months with orders**.
 
-## 🖼️ Previews
-![Executive]([screenshots/Page1.png](https://github.com/KashyapAva/retail-kpi-powerbi-dashboard/blob/4d94053c23413f85d42a4ea5edd8a1d07b86c531/Page1.png))
-![Marketing](screenshots/Page2.png)
-![Category](screenshots/Page3.png)
 
 ## 🧩 Files
 - `Retail_KPI_Dashboard.pbix`
