@@ -16,7 +16,7 @@ Revenue · COGS · Gross Margin % · Orders Count · AOV · Returns Amount · **
 - Safe DAX (`DIVIDE`) to handle missing months; optional filter to **show only months with orders**.
 
 ## 🖼️ Previews
-![Executive](screenshots/Page1.png)
+![Executive]([screenshots/Page1.png](https://github.com/KashyapAva/retail-kpi-powerbi-dashboard/blob/4d94053c23413f85d42a4ea5edd8a1d07b86c531/Page1.png))
 ![Marketing](screenshots/Page2.png)
 ![Category](screenshots/Page3.png)
 
